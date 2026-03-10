@@ -41,10 +41,17 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Alap webszolgáltatás -->
+        <!-- Sprig Boot Alap Webszolgáltatás -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Sprig Boot Fejlesztői Eszközök -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
 
     </dependencies>
