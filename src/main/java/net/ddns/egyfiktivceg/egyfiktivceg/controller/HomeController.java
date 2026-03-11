@@ -16,9 +16,7 @@ public class HomeController {
      */
     @RequestMapping("/")
     public String index() {
-        String viewNev = getViewName();
-        //System.out.println("a");
-        return viewNev;
+        return getViewName();
     }
 
     private String getViewName() {
