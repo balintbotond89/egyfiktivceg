@@ -1,4 +1,4 @@
-package net.ddns.egyfiktivceg.egyfiktivceg.view;
+package net.ddns.egyfiktivceg.egyfiktivceg;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
